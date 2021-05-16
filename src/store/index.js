@@ -47,7 +47,5 @@ export default new Vuex.Store({
           return response
         })
     }
-  },
-  modules: {
   }
 })
