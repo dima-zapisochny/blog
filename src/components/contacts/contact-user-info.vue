@@ -18,7 +18,6 @@ import { mapState, mapActions } from 'vuex'
 
 export default {
   name: 'contact-user-info',
-  props: {},
   data () {
     return {
       contact_data: {}
@@ -65,7 +64,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-
-</style>

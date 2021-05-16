@@ -18,10 +18,6 @@ export default {
   components: {
     contactUser
   },
-  props: {},
-  data () {
-    return {}
-  },
   computed: {
     ...mapState([
       'contacts'
@@ -45,7 +41,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-
-</style>

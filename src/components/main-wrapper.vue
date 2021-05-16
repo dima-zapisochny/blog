@@ -15,15 +15,6 @@ export default {
   components: {
     cHeader,
     bottomNav
-  },
-  props: {},
-  data () {
-    return {}
-  },
-  computed: {}
+  }
 }
 </script>
-
-<style scoped>
-
-</style>

@@ -20,15 +20,6 @@
 
 <script>
 export default {
-  name: 'bottom-nav',
-  props: {},
-  data () {
-    return {}
-  },
-  computed: {}
+  name: 'bottom-nav'
 }
 </script>
-
-<style scoped>
-
-</style>

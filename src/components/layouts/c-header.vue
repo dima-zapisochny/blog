@@ -22,10 +22,6 @@ import { mapState } from 'vuex'
 
 export default {
   name: 'c-header',
-  props: {},
-  data () {
-    return {}
-  },
   methods: {
     goBack () {
       this.$router.go(-1)
@@ -41,7 +37,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-
-</style>

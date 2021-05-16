@@ -12,15 +12,11 @@
 <script>
 export default {
   name: 'user',
-  components: {},
   props: {
     user_data: {
       type: Object,
       default: () => {}
     }
-  },
-  data () {
-    return {}
   },
   computed: {},
   methods: {
@@ -33,7 +29,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-
-</style>

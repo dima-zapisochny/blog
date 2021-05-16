@@ -41,7 +41,6 @@ export default {
       textValue: ''
     }
   },
-  computed: {},
   methods: {
     ...mapActions([
       'SET_MESSAGE_TO_CHAT'
@@ -68,7 +67,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-
-</style>

@@ -20,9 +20,6 @@ export default {
       default: () => {}
     }
   },
-  data () {
-    return {}
-  },
   computed: {
     className () {
       return {
@@ -38,7 +35,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-
-</style>

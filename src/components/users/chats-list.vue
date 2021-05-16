@@ -17,10 +17,6 @@ export default {
   components: {
     user
   },
-  props: {},
-  data () {
-    return {}
-  },
   computed: {
     ...mapState([
       'chats'
@@ -38,7 +34,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-
-</style>
