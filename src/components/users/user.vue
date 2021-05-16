@@ -3,9 +3,9 @@
     <div class="user__avatar"></div>
     <div class="user__info">
       <p class="info__name">{{user_data.name}}</p>
-      <p class="info__last-message">{{ user_data.chat[user_data.chat.length-1].text }}</p>
+      <p class="info__last-message">{{ getLastMessage }}</p>
     </div>
-    <div class="user__time">{{ user_data.chat[user_data.chat.length-1].time }}</div>
+    <div class="user__time">{{ getLastTimeMessage }}</div>
   </div>
 </template>
 
@@ -18,7 +18,14 @@ export default {
       default: () => {}
     }
   },
-  computed: {},
+  computed: {
+    getLastMessage () {
+      return this.user_data.chat[this.user_data.chat.length - 1].text
+    },
+    getLastTimeMessage () {
+      return this.user_data.chat[this.user_data.chat.length - 1].time
+    }
+  },
   methods: {
     toUserChat () {
       this.$router.push({
