@@ -5,7 +5,7 @@
       <p class="info__name">{{user_data.name}}</p>
       <p class="info__last-message">{{ getLastMessage }}</p>
     </div>
-    <div class="user__time">{{ getLastTimeMessage }}</div>
+    <div class="user__time">{{ getLastTime }}</div>
   </div>
 </template>
 
@@ -22,7 +22,7 @@ export default {
     getLastMessage () {
       return this.user_data.chat[this.user_data.chat.length - 1].text
     },
-    getLastTimeMessage () {
+    getLastTime () {
       return this.user_data.chat[this.user_data.chat.length - 1].time
     }
   },
